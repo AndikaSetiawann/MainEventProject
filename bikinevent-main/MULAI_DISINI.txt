@@ -1,0 +1,121 @@
+╔═══════════════════════════════════════════════════════════════╗
+║                                                               ║
+║         BikinEvent.my.id - Event Management System           ║
+║              PANDUAN CEPAT INSTALASI LOKAL                    ║
+║                                                               ║
+╚═══════════════════════════════════════════════════════════════╝
+
+📌 LANGKAH INSTALASI (5 MENIT):
+
+┌─────────────────────────────────────────────────────────────┐
+│ LANGKAH 1: CEK REQUIREMENTS                                 │
+└─────────────────────────────────────────────────────────────┘
+   Double-click: cek_requirements.bat
+   
+   Pastikan sudah terinstall:
+   ✓ PHP 8.1+
+   ✓ Composer
+   ✓ MySQL (XAMPP/WAMP)
+
+┌─────────────────────────────────────────────────────────────┐
+│ LANGKAH 2: SETUP AWAL                                       │
+└─────────────────────────────────────────────────────────────┘
+   Double-click: setup_awal.bat
+   
+   Script ini akan:
+   ✓ Install dependencies
+   ✓ Buat folder upload
+   ✓ Siapkan environment
+
+┌─────────────────────────────────────────────────────────────┐
+│ LANGKAH 3: IMPORT DATABASE                                  │
+└─────────────────────────────────────────────────────────────┘
+   1. Buka: http://localhost/phpmyadmin
+   2. Klik tab "SQL"
+   3. Copy paste isi file: database_setup.sql
+   4. Klik "Go"
+
+┌─────────────────────────────────────────────────────────────┐
+│ LANGKAH 4: JALANKAN APLIKASI                                │
+└─────────────────────────────────────────────────────────────┘
+   Double-click: jalankan_aplikasi.bat
+   
+   Server akan jalan di: http://localhost:8080
+
+┌─────────────────────────────────────────────────────────────┐
+│ LANGKAH 5: LOGIN                                            │
+└─────────────────────────────────────────────────────────────┘
+   Buka browser: http://localhost:8080
+   
+   Login sebagai Admin:
+   📧 Email: admin@bikinevent.my.id
+   🔑 Password: admin123
+   
+   Login sebagai Peserta:
+   📧 Email: peserta@bikinevent.my.id
+   🔑 Password: peserta123
+
+═══════════════════════════════════════════════════════════════
+
+📚 DOKUMENTASI LENGKAP:
+
+   • INSTALASI_LOKAL.md      → Panduan instalasi detail
+   • RINGKASAN_PERBAIKAN.md  → Apa saja yang diperbaiki
+   • README.md               → Informasi project
+
+═══════════════════════════════════════════════════════════════
+
+🔧 TROUBLESHOOTING:
+
+   ❌ Error "Database connection failed"
+      → Pastikan MySQL sudah running
+      → Cek konfigurasi di sertif/.env
+   
+   ❌ Error "Class TCPDF not found"
+      → Jalankan: cd sertif && composer install
+   
+   ❌ Error "Permission denied"
+      → Pastikan folder uploads tidak read-only
+   
+   ❌ Halaman tidak muncul
+      → Cek apakah port 8080 sudah digunakan
+      → Coba akses: http://localhost:8080/index.php/
+
+═══════════════════════════════════════════════════════════════
+
+✨ FITUR APLIKASI:
+
+   ADMIN:
+   ✓ Dashboard dengan statistik
+   ✓ Kelola Event (CRUD)
+   ✓ Kelola Peserta
+   ✓ Generate Sertifikat PDF
+   ✓ Laporan & Analytics
+   
+   PESERTA:
+   ✓ Browse Event
+   ✓ Daftar Event
+   ✓ Download Sertifikat
+   ✓ Dashboard Peserta
+
+═══════════════════════════════════════════════════════════════
+
+💡 TIPS:
+
+   • Gunakan Chrome/Firefox untuk hasil terbaik
+   • Jangan tutup terminal saat server berjalan
+   • Tekan CTRL+C untuk stop server
+   • Backup database secara berkala
+
+═══════════════════════════════════════════════════════════════
+
+🎉 SELAMAT MENGGUNAKAN!
+
+   Aplikasi BikinEvent.my.id siap digunakan!
+   Semua kode sudah lengkap dan tidak ada yang hilang.
+   
+   Dibuat dengan ❤️ untuk memudahkan pengelolaan event
+   dan sertifikat digital.
+
+═══════════════════════════════════════════════════════════════
+
