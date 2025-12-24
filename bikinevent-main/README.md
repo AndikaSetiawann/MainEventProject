@@ -44,39 +44,7 @@
 
 ## 👥 Tim Pengembang
 
-<table align="center">
-  <tr>
-    <th>Nama</th>
-    <th>NIM</th>
-    <th>GitHub</th>
-    <th>Role</th>
-  </tr>
-  <tr>
-    <td><strong>Abidzar Sabil Handoyo</strong></td>
-    <td>312310471</td>
-    <td><a href="https://github.com/eufroshine">@eufroshine</a></td>
-    <td>Project Manager & Front end Developer</td>
-  </tr>
-  <tr>
-    <td><strong>Alvin Alfandy</strong></td>
-    <td>312310473</td>
-    <td><a href="https://github.com/alvinalfandy">@alvinalfandy</a></td>
-    <td>Frontend Developer & Backend developer</td>
-  </tr>
-  <tr>
-    <td><strong>Daffa Sadewa Putra</strong></td>
-    <td>312310463</td>
-    <td><a href="https://github.com/Daffasp">@Daffasp</a></td>
-    <td>Database Administrator & Mockup designer</td>
-  </tr>
-  <tr>
-    <td><strong>Ridho Fauzi</strong></td>
-    <td>312310563</td>
-    <td><a href="https://github.com/RidhoFauzi-A5">@RidhoFauzi-A5</a></td>
-    <td>Story board designer</td>
-  </tr>
-</table>
-
+<table align="center"> <tr> <th>Nama</th> <th>NIM</th> <th>Role</th> </tr> <tr> <td><strong>Andika Setiawan</strong></td> <td>312310470</td> <td>Project Manager & Frontend Developer</td> </tr> <tr> <td><strong>Daffa Sadewa Putra</strong></td> <td>312310463</td> <td>Database Administrator & Mockup Designer</td> </tr> <tr> <td><strong>Luthfi Fauzan</strong></td> <td>312310497</td> <td>Backend Developer</td> </tr> </table>
 ---
 
 ## 📋 Deskripsi Proyek
